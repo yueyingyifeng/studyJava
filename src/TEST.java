@@ -28,8 +28,7 @@ public class TEST{
             }
         };
 
-        A a = (A)i;
-        a.say();
-        
+        I i1 = i;
+        i1.say();
     }
 }
